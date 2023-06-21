@@ -1,13 +1,19 @@
-function calculateAreaOfRectangle(length, width) {
-    const area = length * width;
-    return area;
-}
-const moreOp = calculateAreaOfRectangle(10.5, 2.5) + 2;
+// function calculateAreaOfRectangle(length, width) {
+//     const area = length * width;
+//     return area;
+// }
+// const moreOp = calculateAreaOfRectangle(10.5, 2.5)
 
-console.log(moreOp);
+// console.log(moreOp);
 
 
-    // console.log("Area of the Rectangle is: " + area)
+    
+
+
+
+
+
+// console.log("Area of the Rectangle is: " + area)
 // }
 // console.log(calculateAreaOfRectangle(10.5, 2.5));
 
@@ -27,20 +33,6 @@ console.log(moreOp);
 // const nairaValue = converter(100)
 
 // console.log(nairaValue)
-
-
-
-
-// TASK 9 ON FUNCTION
-// function calculateAreaOfRectangle(length, width) {
-//     const area = length * width;
-//     console.log("Area of the Rectangle is: " + area)
-// }
-// calculateAreaOfRectangle(10.5, 2.5);
-
-
-
-
 
 
 
@@ -93,13 +85,6 @@ console.log(moreOp);
 
 
 
-// FOR-LOOP TASK
-// for (let i =1; i <= 20; i++) {
-//     if(i % 2 !== 0)
-//     console.log(i)
-// }
-
-
 
 
 // let number = 1
@@ -110,14 +95,10 @@ console.log(moreOp);
 
 
 
-
-
 // FOR-LOOP LESSON
 // for(let star = 1; star <=100; star = star+1) {
 //     console.log(star + ' star')
 // }
-
-
 
 
 
@@ -131,23 +112,6 @@ console.log(moreOp);
 //     }
 //         star = star + 1
 // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -185,7 +149,7 @@ console.log(moreOp);
 
 
 
-// TASK 7 IS BELOW USINH IF...ELSE..IF
+// TASK 7 IS BELOW USING IF...ELSE..IF
 // const side1= 17
 // const side2= 17
 // const side3= 10
@@ -202,7 +166,7 @@ console.log(moreOp);
 
 
 
-// SWITCH STATEMENT 
+// SWITCH STATEMENT LESSON
 // const day = 'Thursday'
 // switch(day){
 //     case 'Friday':
@@ -247,20 +211,6 @@ console.log(moreOp);
 // } else {
 //     console.log('Go to work!')
 // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -316,17 +266,6 @@ console.log(moreOp);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 // const compare = 4==4
 
 /* 
@@ -357,7 +296,7 @@ NOT ---> ! this toggles boolean values of a perticular data
 
 
 
-
+// TASK 5
 // const day = 'Sunday'
 
 // const position = 1 // this is it's current position in the week
