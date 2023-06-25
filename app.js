@@ -1,3 +1,128 @@
+// CALLBACK FUNCTION LESSON
+
+function greetings (greet) {   //this has a higher order functiona nd a callback function
+    greet();
+}
+
+function callback() {
+    console.log("Good morning");
+}
+
+greetings(callback);
+//                     OR
+// greetings(function() {
+//     console.log("Good morning");
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  OBJECT METHODS LESSON
+
+// const myObject = {
+//     name: 'car',
+//     color: 'red',
+//     price: 25000
+// }
+
+// const door = {
+//     isOpen: false,
+//     material: 'wood',
+//     height: 8,
+//     toggleOpenAndClose: function(){
+//         if(door.isOpen===true) {
+//             door.isOpen = false
+//         } else {
+//             door.isOpen = true
+//         }
+//     }
+// }
+
+// door.toggleOpenAndClose()
+
+// console.log(door.isOpen)
+
+
+// const person = {
+//     name: 'Ijay',
+//     age: 24,
+//     siblings: ['Lawrence', 'Laura', 'Liveth'],
+//     addSibling: function(){
+//         person.siblings.push('Lawretta')
+//     }
+// }
+
+// person.addSibling('Lawretta')
+// person.haircolor = ('brown')   // we created another property here
+// console.log(person)
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  FUNCTION EXPRESSION LESSON
+
+// function greet(name) {
+//     console.log("Good morning, " + name);
+// }
+
+// greet ("Nick");  //this function can also be called from the top as it is a Declared function
+
+// const myGreet = function greet(name) {
+//     console.log("Good morning, " + name)
+// };
+
+// myGreet("Nick");   // this function will not work if called before the point it was initialized hence it is called FUNCTION EXPRESSION
+
+
+
+
+
+// SCOPE LESSON
+// function greet() {
+
+// const myName = 'Ijay';
+//     console.log("Good morning, "  +  myName);
+
+// }
+// greet();
+
+// function anotherGreet() {  //this wouldn't work here because a function is called in another function
+//     console.log("Good evening, " + myName);
+// }
+// anotherGreet();
+
+
+
+
+
+
+
+
+
+
+
 // function calculateAreaOfRectangle(length, width) {
 //     const area = length * width;
 //     return area;
