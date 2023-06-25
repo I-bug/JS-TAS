@@ -1,14 +1,25 @@
+// INTRO TO ARRAY LESSON
+//const friendsArray = ['Rose', 'Chi', 'Nk', 'Noble', 'Ify']
+// const numArray = [90, 60, 50]
+
+// const emptyArray = []
+
+// console.log(emptyArray)
+
+
+
+
 // CALLBACK FUNCTION LESSON
 
-function greetings (greet) {   //this has a higher order functiona nd a callback function
-    greet();
-}
+// function greetings (greet) {   //this has a higher order functiona nd a callback function
+//     greet();
+// }
 
-function callback() {
-    console.log("Good morning");
-}
+// function callback() {
+//     console.log("Good morning");
+// }
 
-greetings(callback);
+// greetings(callback);
 //                     OR
 // greetings(function() {
 //     console.log("Good morning");
