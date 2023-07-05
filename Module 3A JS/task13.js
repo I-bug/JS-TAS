@@ -5,4 +5,18 @@ const books = {
     author: 'Ijeoma Lawretta',
     reading: true
 }
-console.log(author)
+console.log(books.author)
+
+
+
+//INTRO TO OBJECTS LESSON ON JS
+// const myObject = {name:'car', color:'red', price: 25000}
+
+// const door = {
+//     isOpen:false,
+//     material:'wood',
+//     height: 8
+// }
+
+// console.log(door.isOpen)
+// console.log(door['material']) //this is another way to access the property of an object
