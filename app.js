@@ -1,7 +1,111 @@
 
-const friends = ['Rose', 'Chi', 'Nk', 'Noble', 'Tee']
-const bestFriend = friends [2]
-console.log(bestFriend)
+const books = {
+    title: 'Ijays Books',
+    description: 'This is a story about the author',
+    numberOfPages: 100,
+    author: 'Ijeoma Lawretta',
+    reading: true
+}
+console.log(books.author)
+
+
+
+
+
+
+
+
+
+
+
+
+
+//INTRO TO ONJECTS LESSON ON JS
+// const myObject = {name:'car', color:'red', price: 25000}
+
+// const door = {
+//     isOpen:false,
+//     material:'wood',
+//     height: 8
+// }
+
+// console.log(door.isOpen)
+// console.log(door['material']) //this is another way to access the property of an object
+
+
+
+
+
+// const months = ['Jan', 'Feb', 'March', 'April', 'May', 'June', 'July', 'Aug', 'Sep', 'Feb', 'Oct', 'April','Nov', 'Dec']
+
+// console.log(months.lastIndexOf('April')) // this is how to check an element exists. If it returns -1 it means it doesn't exist. And if it returns 0 or +1 it means it exists
+
+
+// const months = ['Jan', 'Feb', 'March', 'April', 'May', 'June', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+// console.log(months.indexOf('Monday')) // this is how to check an element exists. If it returns -1 it means it doesn't exist. And if it returns 0 or +1 it means it exists
+
+
+
+
+
+
+// SPLICE ARRAY LESSON
+// const months = ['Jan', 'Feb', 'March', 'April', 'May', 'June', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+
+// months.splice(4,4)
+  //Assignments below
+// Remove Jan - March
+// months.splice(4,2) -- what will be the returned array
+//                    -- what will be the modified array
+
+
+// console.log(months, months.splice(4,1, 'My custom month')) //this is to replace an index
+
+
+// SLICE ARRAY LESSON
+// months.slice(3,9)
+// months.slice(1,7)
+// April - Aug
+// Aug - Dec
+
+
+
+
+
+
+
+
+
+
+// SHIFT AND UNSHIFT ARRAY LESSON
+// const notEmpty = ['First Index', 'Second element', 477, true]
+
+// notEmpty.unshift('Pre-Element') // this is the unshift function
+
+// notEmpty.shift()  //this is the shift function
+
+// console.log(notEmpty)
+
+
+
+// POP Array
+
+// for(let start = 0; start <= notEmpty.length; start=start+1) {
+//     notEmpty.pop()
+//     notEmpty.pop()  
+// }
+
+// notEmpty.pop()  //this is the POP function
+
+
+// PUSH ARRAY
+// emptyArray.push()
+
+// emptyArray.push('First Index', 'Second element', 477, true)
+
+// notEmpty.push('Pushed element')
+
+// console.log(notEmpty)
 
 
 
