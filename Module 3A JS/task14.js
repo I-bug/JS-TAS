@@ -13,4 +13,4 @@ const books = {
 
     }
 }
-console.log(books.author)
+console.log(books.reading)

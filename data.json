@@ -1,0 +1,7 @@
+{
+    "name": "vehicle",
+    "type": "car",
+    "color": "black",
+    "parts": ["tire", "side mirror"]
+
+}

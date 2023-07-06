@@ -1,24 +1,90 @@
+const myObject = {
+    name: 'vehicle',
+    type: 'car',
+    color: 'black'
 
-const books = {
-    title: 'Ijays Books',
-    description: 'This is a story about the author',
-    numberOfPages: 100,
-    author: 'Ijeoma Lawretta',
-    reading: true,
-    toggleReadingStatus: function() {
-        if(reading === true) {
-            reading = false
-        } else {
-            reading = true
-        }
-
-    }
 }
-console.log(books.reading)
+const json = JSON.stringify(myObject) //to convert JS to JSON
+
+console.log(JSON.parse(json)) // to convert JSON to JS Object
+
+// console.log(json) //To view the json on console
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// TASK 15 ON OBJECTS 
+// const books = [
+
+// {
+//     title: 'Ijays Books',
+//     description: 'Testing is not for the weak +;' + 'Volume 1',
+//     numberOfPages: 100,
+//     author: 'Ijeoma Lawretta',
+//     reading: true,
+// },
+
+// {
+//     title: 'Ijays Books',
+//     description: 'Testing is not for the weak +;' + 'Volume 2 ',
+//     numberOfPages: 100,
+//     author: 'Ijeoma Lawretta',
+//     reading: false,
+// },
+
+// {
+//     title: 'Ijays Books',
+//     description: 'Testing is not for the weak +;' + 'Volume 3 ',
+//     numberOfPages: 100,
+//     author: 'Ijeoma Lawretta',
+//     reading: true,
+// },
+
+// {
+//     title: 'Ijays Books',
+//     description: 'Testing is not for the weak +;' + 'Volume 4 ',
+//     numberOfPages: 200,
+//     author: 'Ijeoma Lawretta',
+//     reading: false,
+// }
+// ];
+
+// below is the loop through the books array where the reading status is true to the console
+
+
+
+
+    // if (books.reading === true) {
+    //     books.reading = false 
+    //     } else {
+    //         books.reading = true
+    //     }
+    // }
+
+    
 
 
 
@@ -54,12 +120,11 @@ console.log(books.reading)
 //     }
 // }
 
-// // door.toggleOpenAndClose() //this is to open and close the door
 // person.addSibling('Henry')
 // person.hairColor = 'black'
 // console.log(person)
-// // console.log(door.isOpen)
-// // console.log(door['material']) //this is another way to access the property of an object
+// console.log(door.isOpen)
+// console.log(door['material']) //this is another way to access the property of an object
 
 
 
